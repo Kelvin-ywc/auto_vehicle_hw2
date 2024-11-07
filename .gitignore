@@ -17,5 +17,7 @@
 /runs
 /wandb
 
-*.zip
-*.pt
+**/*.zip
+**/*.pt
+
+**/*.tar.gz

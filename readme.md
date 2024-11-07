@@ -183,22 +183,22 @@ python finetune.py --data ./dataset/soda/soda.yaml --model yolo11n --epochs 100 
 
 ## 可视化结果
 ### yolo11s训练结果
-![yolo11s训练结果](runs/detect/yolo11s_e100/results.png "yolo11s训练结果")
+![yolo11s训练结果](./runs/detect/yolo11s_e100/results.png "yolo11s训练结果")
 ### yolo11n训练结果
-![yolo11n训练结果](runs/detect/yolo11n_e100/results.png "yolo11n训练结果")
+![yolo11n训练结果](./runs/detect/yolo11n_e100/results.png "yolo11n训练结果")
 ### yolo11s定性分析
-![yolo11s定性分析](runs/detect/yolo11s_e100/val_batch0_pred.jpg "yolo11s定性分析")
+![yolo11s定性分析](./runs/detect/yolo11s_e100/val_batch0_pred.jpg "yolo11s定性分析")
 ### yolo11n定性分析
-![yolo11n定性分析](runs/detect/yolo11n_e100/val_batch0_pred.jpg "yolo11n定性分析")
+![yolo11n定性分析](./runs/detect/yolo11n_e100/val_batch0_pred.jpg "yolo11n定性分析")
 ### 定性分析标签
-![定性分析标签](runs/detect/yolo11n_e100/val_batch0_labels.jpg "定性分析标签")
+![定性分析标签](./runs/detect/yolo11n_e100/val_batch0_labels.jpg "定性分析标签")
 ## predict
 使用自己的图片进行推理
 ```
 python predict.py --img_path ./assets/images.jpg --model runs/detect/yolo11n_e100/weights/best.pt --save True --imgsz 640 --device 0 --conf 0.5
 ```
 
-![小米su7](assets/images.jpg) ![小米su7预测](runs/detect/predict/images.jpg)
+![小米su7](./assets/images.jpg) ![小米su7预测](./runs/detect/predict/images.jpg)
 
 ## 说明
 本项目在window 11系统进行数据集的处理,并在ubuntu环境下使用单卡2080ti进行训练.为了上传代码的简洁,模型权重,wandb下的日志文件均保存在百度网盘链接中,见[百度网盘链接](www.baidu.com).
