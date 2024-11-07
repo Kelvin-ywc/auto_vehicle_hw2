@@ -91,26 +91,9 @@ python finetune.py --data ./dataset/soda/soda.yaml --model yolo11s --epochs 100 
 # training for yolo11n
 python finetune.py --data ./dataset/soda/soda.yaml --model yolo11n --epochs 100 --batch 32 --imgsz 640 
 ```
-
-[//]: # (epoch,time,train/box_loss,train/cls_loss,train/dfl_loss,metrics/precision&#40;B&#41;,metrics/recall&#40;B&#41;,metrics/mAP50&#40;B&#41;,metrics/mAP50-95&#40;B&#41;,val/box_loss,val/cls_loss,val/dfl_loss,lr/pg0,lr/pg1,lr/pg2)
 ## Result
 ### YOLO11n
 
-[//]: # (                 Class     Images  Instances      Box&#40;P          R      mAP50  mAP50-95&#41;: 100%|██████████| 312/312 [01:39<00:00,  3.13it/s])
-
-[//]: # (                   all       4991      37046      0.226      0.152      0.153     0.0892)
-
-[//]: # (                person        832       2835      0.368      0.301      0.221      0.112)
-
-[//]: # (               bicycle       1208       2616      0.297     0.0283     0.0798     0.0269)
-
-[//]: # (                   car       4711      20611      0.687       0.56      0.609      0.392)
-
-[//]: # (            motorcycle       3307       9501    0.00219   0.000105     0.0059     0.0031)
-
-[//]: # (              airplane       1084       1387          0          0    0.00242    0.00141)
-
-[//]: # (                   bus         76         96    0.00134     0.0208   0.000336   0.000193)
 | Class      | Images  | Instances | P     | R     | mAP50  | mAP50-95  |
 |------------|---------|-----------|-------|-------|--------|-----------|
 | all        | 4991    | 37046     | 0.226 | 0.152 | 0.153  | 0.089     |
@@ -134,21 +117,6 @@ python finetune.py --data ./dataset/soda/soda.yaml --model yolo11n --epochs 100 
 
 ### YOLO11s
 
-[//]: # (                 Class     Images  Instances      Box&#40;P          R      mAP50  mAP50-95&#41;: 100%|██████████| 312/312 [01:39<00:00,  3.13it/s])
-
-[//]: # (                   all       4991      37046      0.223      0.177      0.173      0.103)
-
-[//]: # (                person        832       2835      0.386      0.401      0.276      0.145)
-
-[//]: # (               bicycle       1208       2616      0.207     0.0297     0.0764     0.0235)
-
-[//]: # (                   car       4711      20611      0.742      0.622      0.677      0.447)
-
-[//]: # (            motorcycle       3307       9501    0.00145   0.000105    0.00696    0.00323)
-
-[//]: # (              airplane       1084       1387          0          0    0.00162    0.00119)
-
-[//]: # (                   bus         76         96   0.000885     0.0104   0.000488   0.000287)
 | Class      | Images  | Instances | P     | R     | mAP50  | mAP50-95  |
 |------------|---------|-----------|-------|-------|--------|-----------|
 | all        | 4991    | 37046     | 0.223 | 0.177 | 0.173  | 0.103     |
@@ -161,21 +129,6 @@ python finetune.py --data ./dataset/soda/soda.yaml --model yolo11n --epochs 100 
 
 ### YOLO11s_finetune
 
-[//]: # (                 Class     Images  Instances      Box&#40;P          R      mAP50  mAP50-95&#41;: 100%|██████████| 312/312 [01:39<00:00,  3.14it/s])
-
-[//]: # (                   all       4991      37046      0.701      0.472       0.54      0.356)
-
-[//]: # (            Pedestrian        832       2835      0.757      0.311      0.442      0.225)
-
-[//]: # (               Cyclist       1208       2616      0.727      0.543       0.62      0.371)
-
-[//]: # (                   Car       4711      20611      0.845       0.73      0.808      0.595)
-
-[//]: # (                 Truck       3307       9501      0.764      0.563      0.646      0.438)
-
-[//]: # (                  Tram       1084       1387      0.746      0.433      0.522      0.393)
-
-[//]: # (              Tricycle         76         96      0.367       0.25      0.205      0.116)
 | Class      | Images  | Instances | P     | R     | mAP50  | mAP50-95  |
 |------------|---------|-----------|-------|-------|--------|-----------|
 | all        | 4991    | 37046     | 0.701 | 0.472 | 0.54   | 0.356     |
