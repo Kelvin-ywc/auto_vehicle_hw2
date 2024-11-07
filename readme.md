@@ -42,10 +42,15 @@ pip install ultralytics
 ## 项目初始目录结构
 ```angular2html
 ├─ auto_vehicle
+    ├─ assets
+    ├─ script
     ├─ convert_coco2yolo.py
     ├─ finetune.py
+    ├─ predict.py
+    ├─ valid.py
     ├─ readme.md
     ├─ soda.yaml
+    ├─ .gitignore
 ```
 
 ## 数据集准备 Dataset
