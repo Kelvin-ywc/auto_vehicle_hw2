@@ -4,8 +4,9 @@
 ## 项目目录
 ```angular2html
 ├─ auto_vehicle
+    ├─ assets
     ├─ dataset # 数据集
-        └─ soda
+        ├─ soda
             ├─ images
                 ├─ train
                     ├─ *.jpg
@@ -19,9 +20,13 @@
             ├─ soda.yaml
     ├─ runs # 训练结果,训练过程自动生成
     ├─ wandb # wandb日志,训练过程自动生成
+    ├─ script # 训练脚本
     ├─ convert_coco2yolo.py
     ├─ finetune.py
+    ├─ predict.py
+    ├─ valid.py
     ├─ readme.md
+    ├─.gitignore
 ```
 
 ## Environment
