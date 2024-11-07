@@ -164,4 +164,4 @@ python predict.py --img_path ./assets/images.jpg --model runs/detect/yolo11n_e10
 ![小米su7](./assets/images.jpg) ![小米su7预测](./runs/detect/predict/images.jpg)
 
 ## 说明
-本项目在window 11系统进行数据集的处理,并在ubuntu环境下使用单卡2080ti进行训练.为了上传代码的简洁,模型权重,wandb下的日志文件均保存在百度网盘链接中,见[百度网盘链接](https://pan.baidu.com/s/1pLl68QezCvoWbXKaVMDijg?pwd=xqjo), 其中训练模型权重在hw2/runs/yolo11n_e100/weights和hw2/runs/yolo11s_e100/weights下.
+本项目在window 11系统进行数据集的处理,并在ubuntu环境下使用单卡2080ti进行训练.为了上传代码的简洁,模型权重,wandb下的日志文件均保存在百度网盘链接中,见[百度网盘链接](https://pan.baidu.com/s/1QDT6dDQ5Ie0u8lZ9LaXagQ?pwd=ygaf), 其中训练模型权重在hw2/runs/yolo11n_e100/weights和hw2/runs/yolo11s_e100/weights下.
