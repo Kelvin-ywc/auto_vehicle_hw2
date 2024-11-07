@@ -1,0 +1,21 @@
+# Pycharm editor settings
+.idea
+
+# vscode editor settings
+.vscode
+
+# pytorch/python/numpy formats
+*.pth
+*.pkl
+*.npy
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+/dataset
+/runs
+/wandb
+
+*.zip
+*.pt
