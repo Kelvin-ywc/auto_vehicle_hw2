@@ -14,7 +14,7 @@
 **/.ipynb_checkpoints/
 
 /dataset
-/runs
+/runs_org
 /wandb
 
 **/*.zip
